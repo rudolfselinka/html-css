@@ -1,0 +1,52 @@
+body {
+background-color: #ffffff;
+}
+
+img {
+width: 7rem;
+height: 7rem;
+margin:auto;
+}
+.container{
+box-shadow: 0 0 10px black;
+margin: auto;
+margin-top: 8rem;
+border-radius: 1.5rem;
+border-color: #020100;
+width: 25rem;
+height: 30rem;
+align-content: center;
+background-color: #235789;
+display: flex;
+flex-direction: column;
+}
+
+h1 {
+font-size: 3rem;
+text-align: center;;
+}
+
+label {
+font-size: 1.5rem;
+margin-left: 2.5rem;
+margin-right: 2.5rem;
+}
+
+input {
+border-radius: 0.3rem;
+border-color: #020100;
+font-size: 1.1rem;
+margin-left: 2.5rem;
+margin-right: 2.5rem; ;
+}
+
+button {
+border-radius: 1.5rem;
+padding: 0.8rem;
+border-color: #020100;
+font-size: 1.1rem;
+margin-top: 2rem;
+margin-left: 8rem;
+margin-right: 8rem;
+margin-bottom: 15rem;
+}
