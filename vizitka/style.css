@@ -1,0 +1,61 @@
+body{
+    background-image: url(smooth-white-wave-background_52683-55288.jpg);
+    background-size: 100%;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-bottom: 150px;
+    padding-right: 200px;
+    background-color: #5390a8;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.card2 img {
+    border: 3px solid #ffffff;
+}
+
+.card2 p{
+    padding: 10px;
+    border: 2px solid #ffffff;
+
+}
+
+.card2{
+    font-style: Century Gothic;
+    background-color: #5390a8;
+    color: #ffffff;
+    opacity: 1;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card2:hover{
+    opacity: 0;
+    transition: 400ms;
+}
