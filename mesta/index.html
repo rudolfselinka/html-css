@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filtrování dat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Filtrování dat</h1>
+        <nav class="menu-hlavni">
+        <ul>
+        <li><a href="#sekce-tabulka">Tabulka</a></li>
+        <li><a href="#sekce-formular">Formulář</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+    <section id="sekce-tabulka">
+    <h2>Seznam měst</h2>
+        <table id="tabulka-dat">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Město <br> <input type="text" id="filtr-mesto" placeholder="Hledej"></th>
+                <th>Obyvatelé</th>
+            </tr>
+                </thead>
+        <tbody id="telo-tabulky">
+            <tr><td>1</td><td>New York</td><td>8 419 600</td></tr>
+            <tr><td>2</td><td>Los Angeles</td><td>3 980 400</td></tr>
+            <tr><td>3</td><td>Chicago</td><td>2 716 000</td></tr>
+            <tr><td>4</td><td>Houston</td><td>2 328 000</td></tr>
+            <tr><td>5</td><td>Phoenix</td><td>1 690 000</td></tr>
+            <tr><td>6</td><td>Philadelphia</td><td>1 584 200</td></tr>
+        </tbody>
+        </table>
+        </section>
+
+<section id="sekce-formular">
+<h2>Výběr města</h2>
+        <form id="formular-vyber">
+            <label for="filtr-vyber">Hledej ve výběru:</label>
+            <input type="text" id="filtr-vyber" placeholder="Napiš část názvu">
+            <label for="vyber-mesto">Vyber město:</label>
+        <select id="vyber-mesto" size="7">
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Houston">Houston</option>
+                <option value="Phoenix">Phoenix</option>
+                <option value="Philadelphia">Philadelphia</option>
+        </select>
+    <button type="submit">Odeslat</button>
+        </form>
+        <div id="vystup-formular"></div>
+    </section>
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
